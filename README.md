@@ -82,6 +82,17 @@ To start the production server:
 ```bash
 npm start
 ```
+# Build the image
+```bash
+docker build -t community-portfolio .
+```
+
+# Run the container
+```bash
+docker run -p 3000:3000 community-portfolio
+```
+
+
 
 ## Contributing
 
