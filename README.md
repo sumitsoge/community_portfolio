@@ -1,61 +1,101 @@
-# Portfolio Website — v1
+# Community Portfolio
 
-My name is Adeola Badero, a Frontend Software Engineer & Web designer based in Lagos. I enjoy crafting websites that aid business growth and software that makes lives easier; Honing technology, to better ease lives and improve the world I live in.
+A modern, responsive portfolio website built with Next.js 14, React 18, and Tailwind CSS. Features smooth animations powered by Framer Motion and a beautiful, interactive UI.
 
-I created this website to showcase my capabilities on the frontend, and to deepen my understanding of framer motion. I learnt certain things building this site and by going through the code you stand a chance to learn new things too and better improve your frontend skills.
+## Features
 
-# Tech Stack
+- 🚀 Built with Next.js 14 and React 18
+- 💨 Tailwind CSS for styling
+- 🎭 Framer Motion animations
+- 📱 Fully responsive design
+- 🌓 Custom cursor effects with Blobity
+- 📧 Contact form integration with EmailJS
+- ⚡ Optimized with Vercel Analytics and Speed Insights
+- 🎨 Modern and clean UI/UX
+- 🔍 SEO optimized
 
-Technologies: React, Next.js, Typescript, Tailwind, React-hook-form, Email.js and Framer Motion <br>
-Hosting: Netlify
+## Gallery
 
-# Gallery
+![Portfolio Screenshot1](./community_project_demo_1.png)
+![Portfolio Screenshot2](./community_project_demo_2.png)
 
-![Portfolio Screenshot1](./Screenshot.jpg)
+## Prerequisites
 
-<!-- ![Portfolio Screenshot2](./Screenshot-1.png) -->
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or higher)
+- npm
 
-![Portfolio Screenshot2](./Screenshot-2.png)
-[View Live Demo](https://adeolabadero.netlify.app)
+## Getting Started
 
-# Get started
-
-Clone the project
-
+1. Clone the repository:
+```bash
+git clone https://github.com/iemafzalhassan/community_project.git
 ```
-git clone https://github.com/adex-hub/ade-folio.git
+
+2. Navigate to the project directory:
+```bash
+cd community_project
 ```
 
-Go to the project directory
-
-```
-cd ade-folio
-```
-
-Install dependencies
-
-```
+3. Install dependencies:
+```bash
 npm install
 ```
 
-Start the development server
-
+4. Create a `.env` file in the root directory and add your environment variables:
+```env
+# Example environment variables (check .env.example)
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 ```
+
+5. Start the development server:
+```bash
 npm run dev
 ```
 
-# Contribution and usage
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-This is an open source project, hence you're welcome to use the code or parts of the code for your own site. When using this project, make tweaks to various components and the theme to really make it your own. Finding it hard to come up with a good color pallete? [Here is a good start!](https://mycolor.space)
+## Project Structure
 
-If you're not modifying the design much, credit me as the designer of the website.
+```
+community_portfolio/
+├── app/                    # Next.js app directory
+│   ├── components/        # React components
+│   ├── contexts/         # React contexts
+│   └── utils/           # Utility functions
+├── public/              # Static assets
+└── contexts/           # Global context providers
+```
 
-If their any concerns or questions in the user of my work, please reach out to me on [X/Twitter](https://x.com/Ade_the_great) or [LinkedIn](https://linkedin.com/in/adeola-badero). I'd be happy to help out as much as I can.
+## Build and Deployment
 
-# Feedback
+To build the project for production:
 
-Although I'm currently not accepting PRs (pull requests), I encourage you to reach out to me to share and discuss possible suggestions or improvements that I can make to the site. Say hello on [X/Twitter](https://x.com/Ade_the_great) and let's talk, as your feedback means growth and improvement for this project and for other people who would be inspired by this work to create their portfolios in the future.
+```bash
+npm run build
+```
 
-# License
+To start the production server:
+
+```bash
+npm start
+```
+
+## Contributing
+
+This is an open-source project, and contributions are welcome! Feel free to:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Feedback
+
+If you have any feedback or suggestions, please open an issue in the repository. We appreciate your input!
